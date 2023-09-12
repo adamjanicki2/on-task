@@ -1,0 +1,15 @@
+button {
+  width: fit-content;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid var(--default-border-color);
+  background-color: inherit;
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.8rem;
+  transition: border-color 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+button:hover {
+  border-color: var(--default-color);
+}

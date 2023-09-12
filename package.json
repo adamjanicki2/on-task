@@ -1,5 +1,5 @@
 {
-  "name": "react-skeleton",
+  "name": "on-task",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,9 +12,13 @@
     "@types/react-dom": "^18.2.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
     "react-scripts": "5.0.1",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^3.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }

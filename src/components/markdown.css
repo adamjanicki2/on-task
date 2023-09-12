@@ -1,0 +1,65 @@
+/* Styling for markdown */
+
+h1 {
+  margin: 1rem 0;
+}
+
+h2 {
+  margin: 0.75rem 0;
+}
+
+h3 {
+  margin: 0.5rem 0;
+}
+
+ol,
+ul {
+  margin: 0;
+}
+
+p {
+  line-height: 1.6;
+  margin: 0.25rem 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+a {
+  color: var(--default-color);
+  text-decoration: underline;
+  text-decoration-color: #0070ff;
+  text-decoration-thickness: 2px;
+  transition: color 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0070ff;
+}
+
+table {
+  border-collapse: collapse;
+  width: fit-content;
+  border: 1px solid var(--default-border-color);
+  margin: 0.25rem 0;
+  overflow-x: auto;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+hr {
+  color: #eee;
+  border: 2px solid #eee;
+  width: 100%;
+}
