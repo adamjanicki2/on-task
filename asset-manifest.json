@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/on-task/static/css/main.da577ef5.css",
+    "main.js": "/on-task/static/js/main.a4d9783f.js",
+    "index.html": "/on-task/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.da577ef5.css",
+    "static/js/main.a4d9783f.js"
+  ]
+}
